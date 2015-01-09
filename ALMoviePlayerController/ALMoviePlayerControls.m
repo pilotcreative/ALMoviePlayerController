@@ -161,7 +161,7 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
         [_fullscreenButton.titleLabel setFont:[UIFont systemFontOfSize:14.f]];
         _fullscreenButton.delegate = self;
         [_fullscreenButton addTarget:self action:@selector(fullscreenPressed:) forControlEvents:UIControlEventTouchUpInside];
-        [_topBar addSubview:_fullscreenButton];
+//        [_topBar addSubview:_fullscreenButton];
         
         _scaleButton = [[ALButton alloc] init];
         _scaleButton.delegate = self;
@@ -199,7 +199,7 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
         [_fullscreenButton setImage:[UIImage imageNamed:@"movieFullscreen.png"] forState:UIControlStateNormal];
         [_fullscreenButton addTarget:self action:@selector(fullscreenPressed:) forControlEvents:UIControlEventTouchUpInside];
         _fullscreenButton.delegate = self;
-        [_bottomBar addSubview:_fullscreenButton];
+//        [_bottomBar addSubview:_fullscreenButton];
     }
     
     //static stuff
